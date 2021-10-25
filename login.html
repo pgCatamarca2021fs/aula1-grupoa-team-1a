@@ -13,72 +13,77 @@
   <link rel="stylesheet" href="./plugins/icheck-bootstrap/icheck-bootstrap.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="./css/adminlte.css">
+  <!-- Costumer style -->
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="hold-transition login-page">
-<div class="login-box">
-  <div class="login-logo">
-    <a href="#"><b>Grupo</b>A1</a>
-  </div>
-  <!-- /.login-logo -->
-  <div class="card">
-    <div class="card-body login-card-body">
-      <h6 class="login-box-msg"><b> Regístrese para iniciar sesión</b></h6>
-      <form action="./index3.html" method="post">
-        <div class="input-group mb-3">
-          <input type="email" class="form-control" placeholder="Email">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-envelope"></span>
-            </div>
-          </div>
-        </div>
-        <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Password">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-lock"></span>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-7">
-            <div class="icheck-primary">
-              <input type="checkbox" id="remember">
-              <label for="remember">
-                Recuerdame
-              </label>
-            </div>
-          </div>
-          <!-- /.col -->
-          <div class="col-5">
-            <button type="submit" class="btn btn-warning "> Iniciar sesión</button>
-          </div>
-          <!-- /.col -->
-        </div>
-      </form>
+<body class="hold-transition login-page"> 
 
-      <div class="social-auth-links text-center mb-3">
-        <p>- O -</p>
-        <a href="#" class="btn btn-block btn-primary">
-          <i class="fab fa-facebook mr-2"></i> Iniciar Sesión Usando Facebook
-        </a>
-        <a href="#" class="btn btn-block btn-danger">
-          <i class="fab fa-google-plus mr-2"></i> Iniciar Sesión Usando Google+
-        </a>
-      </div>
-      <!-- /.social-auth-links -->
-
-      <p class="mb-1">
-        <a href="recuperarpassword.html">Olvidé mi Contraseña</a>
-      </p>
-      <p class="mb-0">
-        <a href="register.html" class="text-center">Registrar una nueva Membresía</a>
-      </p>
+    <!-- /.login-logo -->
+  <div class="formulario">
+    <div class="login-logo">
+      <a href="#">GrupoA1</a>
     </div>
-    <!-- /.login-card-body -->
+    <div class="card-body login-card-body">
+        <h1 class="login-box-msg">Login</h1>
+        <form action="./index3.html" method="post">
+          <div class="input-group mb-4">
+            <input type="email" class="form-control" placeholder="Correo Electronico">
+            <div class="input-group-append">
+              <div class="input-group-text">
+                <span class="fas fa-envelope"></span>
+              </div>
+            </div>
+          </div>
+          <div class="input-group mb-4">
+            <input type="password" class="form-control" placeholder="Contraseña" style="font-size: medium;">
+            <div class="input-group-append">
+              <div class="input-group-text">
+                <span class="fas fa-lock"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="icheck-primary">
+                <input type="checkbox" id="remember">
+                <label for="remember">
+                  Recuerdame
+                </label>
+              </div>
+            </div>
+            <!-- /.col -->
+            <div class="col-12">
+              <button type="submit" class="button"> Ingresar</button>
+            </div>
+            <!-- /.col -->
+          </div>
+        </form>
+
+        <div class="social-auth-links text-center mb-3">
+          <p>- O -</p>
+          <a href="#" class="btn btn-block btn-primary">
+            <i class="fab fa-facebook mr-2"></i> Iniciar Sesión Usando Facebook
+          </a>
+          <a href="#" class="btn btn-block btn-danger">
+            <i class="fab fa-google-plus mr-2"></i> Iniciar Sesión Usando Google+
+          </a>
+        </div>
+        <!-- /.social-auth-links -->
+
+        <p class="mb-1">
+          <a href="recuperarpassword.html">Olvidé mi Contraseña</a>
+        </p>
+        <div class="col-12">        
+          <input class="input" type="checkbox" name="condiciones"/> 
+          <label  class="inline label"style= "font-size: small;" for="condiciones"> Al registrarse, aceptas nuestras <a href="Condiciones de uso y Politica de privacidad">Condiciones de uso y Politica de privacidad</a></label>      <p class="mb-0">
+          <p>¿No tienes una cuenta? <a href="register.html" class="text-center">Registrate</a></p>
+        </div>
+        
+    </div>
+  </form>
   </div>
-</div>
-<!-- /.login-box -->
+  <!-- /.login-box -->
+
 
 <!-- jQuery -->
 <script src="./plugins/jquery/jquery.js"></script>
