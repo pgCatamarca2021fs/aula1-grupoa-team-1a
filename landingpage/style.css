@@ -674,6 +674,7 @@ team area css
 ======================*/
 
 .single-team-img img {
+  filter: grayscale(1);
   border-radius: 35px;
 }
 
