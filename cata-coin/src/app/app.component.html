@@ -7,107 +7,12 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <div class="container">
-  <nav class="navbar navbar-expand-lg navbar-dark mt-4">
-        <a class="navbar-brand" href="#">
-          <img src="assets/img/logo-top.png" alt="Logo Sitio">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>        
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="container">
-            <ul class="navbar-nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>          
-              <li class="nav-item">
-                <a class="nav-link">White Paper</a>
-              </li> 
-              <li class="nav-item">
-                <a class="nav-link">Token Sale</a>
-              </li> 
-              <li class="nav-item">
-                <a class="nav-link">Roadmap</a>
-              </li>              
-              <li class="nav-item">
-                <a class="nav-link">Team</a>
-              </li>            
-              <li class="nav-item">
-                <a class="nav-link">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="btn btn-success  px-3 py-2">Iniciar Sesion</a>
-              </li>
-            </ul>
-        </div> 
-      </div>  
-  </nav>
+  <app-nav></app-nav>
   <main>
-    <article id="bnv">
-      <div class="row">
-        <div class="col-md-6  align-self-center">
-          <h1 class="text-center align-middle">
-            <h1>Empezá ahora a
-                               
-              Manejar tu economia Digital</h1>
-          </h1>
-          <h4>Únete a la mayor exchange de criptomonedas del  mundo.</h4>
-          <p>
-            <a href="#" class="btn btn-success py-4 px-5 mx-4">Registrate</a>
-            <a href="#" class="btn btn-success py-4 px-5">Iniciar Sesión</a>
-          </p>
-        </div>
-        <div class="col-md-6">
-          <img src="assets/img/welcome-img.png" width="90%" alt="Imagen Presentacion">
-        </div>
-      </div>
-    </article>
-    <article id="team">
-      <h2 class="text-center">Team</h2>
-      <div class="row justify-content-center mx-2 my-3">
-        <div class="col-md-4 cardTeam">
-          <img src="assets/img/jorge.jpg" class="rounded mx-auto"  alt="Imagen Presentacion">
-          <h3>Albornoz Jorge</h3>
-          <h4>Desarrollador</h4>
-          <div class="space-10"></div>
-            <div>
-            
-            </div>          
-        </div>
-        <div class="col-md-4">
-          <img src="assets/img/lucas.jpg" width="90%" alt="Imagen Presentacion">
-        </div>
-        <div class="col-md-4">
-          <img src="assets/img/ezequiel.jpg" width="90%" alt="Imagen Presentacion">
-        </div>
-      </div>
-      <div class="row justify-content-center mx-2 my-3">
-        <div class="col-md-4">
-          <img src="assets/img/maria.jpg" width="90%" alt="Imagen Presentacion">
-        </div>
-        <div class="col-md-4">
-          <img src="assets/img/nadir.jpg" width="90%" alt="Imagen Presentacion">
-        </div>
-        <div class="col-md-4">
-          <img src="assets/img/guillermo.jpg" width="90%" alt="Imagen Presentacion">
-        </div>
-      </div>
-    </article>
+    <app-header></app-header>
+    <app-team></app-team>    
   </main>
-  <div class="row">
-    <div class="col">
-      a1
-    </div>
-    <div class="col">
-      a1
-    </div>
-    <div class="col">
-      a1
-    </div>
-  </div>
+  <footer>Falta Footer</footer>
 </div>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
@@ -116,5 +21,4 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 <router-outlet></router-outlet>

@@ -1,0 +1,16 @@
+.cardTeam{
+    text-align: center;
+}
+
+.ico{
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.ico-1 {
+    background: #0077b5;
+}
+  
+.ico-2 {
+    background: #E84C88;
+}

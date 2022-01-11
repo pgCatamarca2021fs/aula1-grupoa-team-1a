@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 @font-face {
     font-family: "Montserrat";
     src: url("assets/fonts/Montserrat-Regular.ttf");
@@ -13,10 +14,6 @@
 body{
 	background: #062489;
     overflow-x: hidden;
-}
-
-li{
-    margin-right: 3em;
 }
 
 h1 {
@@ -44,18 +41,4 @@ h4 {
     margin-bottom: 50px;
     line-height: 26px;
     text-transform: capitalize;
-}
-
-#bnv a{
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-#bnv a{
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-.cardTeam{
-    text-align: center;
 }
