@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { TeamComponent } from './team/team.component';
 import { NavComponent } from './nav/nav.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { LayoutComponent } from './layout/layout.component';
 
 
 
@@ -10,14 +13,16 @@ import { NavComponent } from './nav/nav.component';
   declarations: [
     HeaderComponent,
     TeamComponent,
-    NavComponent
+    NavComponent,
+    ContactComponent,
+    FooterComponent,
+    LayoutComponent
   ],
   imports: [
     CommonModule
   ],  
   exports:[
-    HeaderComponent,
-    TeamComponent,
+    LayoutComponent,
     NavComponent
   ]
 })
