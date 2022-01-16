@@ -47,3 +47,11 @@ h4 {
 article{
     margin-top: 4%;
 }
+
+div a,
+div a:visited {
+    color:#ffd;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px;
+}
