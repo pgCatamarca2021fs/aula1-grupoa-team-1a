@@ -24,6 +24,7 @@ h1 {
 }
 
 h2 {
+    margin-bottom: 3%;
     font-size: 33px;
     font-weight: 800;
     line-height: 50px;
@@ -41,4 +42,8 @@ h4 {
     margin-bottom: 50px;
     line-height: 26px;
     text-transform: capitalize;
+}
+
+article{
+    margin-top: 4%;
 }
